@@ -22,7 +22,7 @@ hashtags = {
 }
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("👋 Welcome to AjayMoreAi_bot!
+    await update.message.reply_text("👋 Welcome to AjayMoreAi_bot!")
 Use /shayari, /image, /hashtag, /download, /motivate")
 
 async def shayari(update: Update, context: ContextTypes.DEFAULT_TYPE):
